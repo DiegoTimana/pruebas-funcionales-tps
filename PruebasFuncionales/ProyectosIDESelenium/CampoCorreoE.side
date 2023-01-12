@@ -1,0 +1,1017 @@
+{
+  "id": "fe44eaf4-579d-4055-a7bc-1198a12140d8",
+  "version": "2.0",
+  "name": "CampoCorreoE",
+  "url": "https://expresscart-testing-xgxnh.ondigitalocean.app/admin/login",
+  "tests": [{
+    "id": "4b110b87-7c10-4ac2-8b38-713b79aba97c",
+    "name": "Pruebas GeneralSettings 2",
+    "commands": [{
+      "id": "dcb30950-3d73-4220-8500-9d958a3ac8c2",
+      "comment": "",
+      "command": "open",
+      "target": "https://expresscart-testing-xgxnh.ondigitalocean.app/admin/login",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "03b374d8-69f2-4857-a38e-f188f368a52d",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1116x608",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "625b749f-b60a-4502-baa9-268f079a6c7c",
+      "comment": "",
+      "command": "click",
+      "target": "id=email",
+      "targets": [
+        ["id=email", "id"],
+        ["name=email", "name"],
+        ["css=#email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//div[@id='container']/div/div/form/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "adbd9597-7b31-4884-8b49-577964ad7dca",
+      "comment": "",
+      "command": "type",
+      "target": "id=email",
+      "targets": [
+        ["id=email", "id"],
+        ["name=email", "name"],
+        ["css=#email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//div[@id='container']/div/div/form/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "michelleghblue@gmail.com"
+    }, {
+      "id": "83b912a5-e77e-4a5b-aad2-b7a125753672",
+      "comment": "",
+      "command": "click",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//div[@id='container']/div/div/form/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "eb2ca4b9-3362-4262-a8c7-2674445ecdbb",
+      "comment": "",
+      "command": "type",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//div[@id='container']/div/div/form/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "expresscart"
+    }, {
+      "id": "85d02064-b87f-4de2-87b4-5af8f630ed58",
+      "comment": "",
+      "command": "click",
+      "target": "id=loginForm",
+      "targets": [
+        ["id=loginForm", "id"],
+        ["css=#loginForm", "css:finder"],
+        ["xpath=//button[@id='loginForm']", "xpath:attributes"],
+        ["xpath=//div[@id='container']/div/div/form/button", "xpath:idRelative"],
+        ["xpath=//form/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Sign in')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "591f872e-30d1-43a6-b5a3-437e731e2c5e",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=General settings",
+      "targets": [
+        ["linkText=General settings", "linkText"],
+        ["css=.mb-2 > .nav-item:nth-child(1) > .nav-link", "css:finder"],
+        ["xpath=//div[@id='container']/div/nav/div/ul[2]/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/admin/settings')]", "xpath:href"],
+        ["xpath=//ul[2]/li/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ed06f93b-295e-4e44-b983-318288ad67c5",
+      "comment": "",
+      "command": "click",
+      "target": "name=emailAddress",
+      "targets": [
+        ["name=emailAddress", "name"],
+        ["css=.col-md-12 > .form-group:nth-child(5) > .form-control", "css:finder"],
+        ["xpath=//input[@name='emailAddress']", "xpath:attributes"],
+        ["xpath=//form[@id='settingsForm']/div[2]/div[5]/input", "xpath:idRelative"],
+        ["xpath=//div[5]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bf7309f5-a6be-403b-97be-bfa571fc8793",
+      "comment": "",
+      "command": "click",
+      "target": "name=emailAddress",
+      "targets": [
+        ["name=emailAddress", "name"],
+        ["css=.col-md-12 > .form-group:nth-child(5) > .form-control", "css:finder"],
+        ["xpath=//input[@name='emailAddress']", "xpath:attributes"],
+        ["xpath=//form[@id='settingsForm']/div[2]/div[5]/input", "xpath:idRelative"],
+        ["xpath=//div[5]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "64528e45-a46e-46cb-b31f-8e22510d54cd",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "name=emailAddress",
+      "targets": [
+        ["name=emailAddress", "name"],
+        ["css=.col-md-12 > .form-group:nth-child(5) > .form-control", "css:finder"],
+        ["xpath=//input[@name='emailAddress']", "xpath:attributes"],
+        ["xpath=//form[@id='settingsForm']/div[2]/div[5]/input", "xpath:idRelative"],
+        ["xpath=//div[5]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8c79de47-4fbc-45f0-9508-be1e8beccec8",
+      "comment": "",
+      "command": "click",
+      "target": "name=emailAddress",
+      "targets": [
+        ["name=emailAddress", "name"],
+        ["css=.col-md-12 > .form-group:nth-child(5) > .form-control", "css:finder"],
+        ["xpath=//input[@name='emailAddress']", "xpath:attributes"],
+        ["xpath=//form[@id='settingsForm']/div[2]/div[5]/input", "xpath:idRelative"],
+        ["xpath=//div[5]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "65b25830-6f13-4650-9c45-1df291f91c01",
+      "comment": "",
+      "command": "click",
+      "target": "name=emailAddress",
+      "targets": [
+        ["name=emailAddress", "name"],
+        ["css=.has-error > .form-control", "css:finder"],
+        ["xpath=//input[@name='emailAddress']", "xpath:attributes"],
+        ["xpath=//form[@id='settingsForm']/div[2]/div[5]/input", "xpath:idRelative"],
+        ["xpath=//div[5]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7ad8cc1a-6b59-440e-b236-b534a6d4b8f7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.col-md-12",
+      "targets": [
+        ["css=.col-md-12", "css:finder"],
+        ["xpath=//form[@id='settingsForm']/div[2]", "xpath:idRelative"],
+        ["xpath=//form/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "005311ff-362a-413a-82af-5f0296afa035",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "css=.col-md-12",
+      "targets": [
+        ["css=.col-md-12", "css:finder"],
+        ["xpath=//form[@id='settingsForm']/div[2]", "xpath:idRelative"],
+        ["xpath=//form/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "46f0d8b0-8068-4db9-b34b-63ae0a2fd127",
+      "comment": "",
+      "command": "type",
+      "target": "name=emailAddress",
+      "targets": [
+        ["name=emailAddress", "name"],
+        ["css=.has-error > .form-control", "css:finder"],
+        ["xpath=//input[@name='emailAddress']", "xpath:attributes"],
+        ["xpath=//form[@id='settingsForm']/div[2]/div[5]/input", "xpath:idRelative"],
+        ["xpath=//div[5]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ecd2fde2-055e-4d92-8197-21715ee83708",
+      "comment": "",
+      "command": "click",
+      "target": "name=emailAddress",
+      "targets": [
+        ["name=emailAddress", "name"],
+        ["css=.has-error > .form-control", "css:finder"],
+        ["xpath=//input[@name='emailAddress']", "xpath:attributes"],
+        ["xpath=//form[@id='settingsForm']/div[2]/div[5]/input", "xpath:idRelative"],
+        ["xpath=//div[5]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8b238903-637d-4d8f-9b22-baf9f46e69bd",
+      "comment": "",
+      "command": "type",
+      "target": "name=emailAddress",
+      "targets": [
+        ["name=emailAddress", "name"],
+        ["css=.has-error > .form-control", "css:finder"],
+        ["xpath=//input[@name='emailAddress']", "xpath:attributes"],
+        ["xpath=//form[@id='settingsForm']/div[2]/div[5]/input", "xpath:idRelative"],
+        ["xpath=//div[5]/input", "xpath:position"]
+      ],
+      "value": "hi@@markmoffat.com"
+    }, {
+      "id": "9140a9dd-190e-450a-9aed-195b10c50038",
+      "comment": "",
+      "command": "click",
+      "target": "css=.has-error > .help-block",
+      "targets": [
+        ["css=.has-error > .help-block", "css:finder"],
+        ["xpath=//form[@id='settingsForm']/div[2]/div[5]/p", "xpath:idRelative"],
+        ["xpath=//div[5]/p", "xpath:position"],
+        ["xpath=//p[contains(.,'This is used as the \"from\" email when sending receipts to your customers.')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d8cc728f-b9c8-46b7-8b19-c9bb05458630",
+      "comment": "",
+      "command": "click",
+      "target": "id=btnSettingsUpdate",
+      "targets": [
+        ["id=btnSettingsUpdate", "id"],
+        ["css=#btnSettingsUpdate", "css:finder"],
+        ["xpath=//button[@id='btnSettingsUpdate']", "xpath:attributes"],
+        ["xpath=//form[@id='settingsForm']/div/h2/span/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Update')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2403d28f-ae8a-4476-9115-9aad2036d64e",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.has-error > .help-block",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "25a6158f-e357-445f-bbf3-0e66020c3529",
+    "name": "Pruebas GeneralSettings 3",
+    "commands": [{
+      "id": "2d97387d-343d-433f-ab16-c513f80b8b7c",
+      "comment": "",
+      "command": "open",
+      "target": "https://expresscart-testing-xgxnh.ondigitalocean.app/admin/login",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "145401b8-850d-4b64-b38f-70549bae1e0d",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1116x608",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c27a61eb-6d09-4d59-93c4-2f3b88653fc1",
+      "comment": "",
+      "command": "click",
+      "target": "id=email",
+      "targets": [
+        ["id=email", "id"],
+        ["name=email", "name"],
+        ["css=#email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//div[@id='container']/div/div/form/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7fdaf1e7-c45e-42c5-babf-77a204a08401",
+      "comment": "",
+      "command": "type",
+      "target": "id=email",
+      "targets": [
+        ["id=email", "id"],
+        ["name=email", "name"],
+        ["css=#email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//div[@id='container']/div/div/form/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "michelleghblue@gmail.com"
+    }, {
+      "id": "d28e9bb6-9c17-4876-8718-ceb8c3b0f2f7",
+      "comment": "",
+      "command": "click",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//div[@id='container']/div/div/form/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e58ec5dd-7e74-468a-8544-a38a87c1d185",
+      "comment": "",
+      "command": "type",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//div[@id='container']/div/div/form/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "expresscart"
+    }, {
+      "id": "0ebb97a5-4d22-4aaa-830c-4de49e2e61d3",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//div[@id='container']/div/div/form/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "11fe2fd6-4e3b-43ad-b6c8-e18d1e674c27",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=General settings",
+      "targets": [
+        ["linkText=General settings", "linkText"],
+        ["css=.mb-2 > .nav-item:nth-child(1) > .nav-link", "css:finder"],
+        ["xpath=//div[@id='container']/div/nav/div/ul[2]/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/admin/settings')]", "xpath:href"],
+        ["xpath=//ul[2]/li/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9292c914-db8a-4dee-834d-0e192aa83fae",
+      "comment": "",
+      "command": "click",
+      "target": "name=emailAddress",
+      "targets": [
+        ["name=emailAddress", "name"],
+        ["css=.col-md-12 > .form-group:nth-child(5) > .form-control", "css:finder"],
+        ["xpath=//input[@name='emailAddress']", "xpath:attributes"],
+        ["xpath=//form[@id='settingsForm']/div[2]/div[5]/input", "xpath:idRelative"],
+        ["xpath=//div[5]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c7f71612-32f8-4215-a65f-e494ab63135e",
+      "comment": "",
+      "command": "type",
+      "target": "name=emailAddress",
+      "targets": [
+        ["name=emailAddress", "name"],
+        ["css=.col-md-12 > .form-group:nth-child(5) > .form-control", "css:finder"],
+        ["xpath=//input[@name='emailAddress']", "xpath:attributes"],
+        ["xpath=//form[@id='settingsForm']/div[2]/div[5]/input", "xpath:idRelative"],
+        ["xpath=//div[5]/input", "xpath:position"]
+      ],
+      "value": "hi@markmoffat"
+    }, {
+      "id": "ab8e1a8b-58f7-4f69-9653-1d48f8e9b921",
+      "comment": "",
+      "command": "click",
+      "target": "id=btnSettingsUpdate",
+      "targets": [
+        ["id=btnSettingsUpdate", "id"],
+        ["css=#btnSettingsUpdate", "css:finder"],
+        ["xpath=//button[@id='btnSettingsUpdate']", "xpath:attributes"],
+        ["xpath=//form[@id='settingsForm']/div/h2/span/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Update')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8b6bcb44-8cc4-44e9-9b48-0117294ff4a9",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.has-error > .help-block",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "c81a794d-6ffb-4fbc-8422-842292649e2d",
+    "name": "Pruebas GeneralSettings 4",
+    "commands": [{
+      "id": "aca30586-9be6-4795-b3b1-158bb6397335",
+      "comment": "",
+      "command": "open",
+      "target": "https://expresscart-testing-xgxnh.ondigitalocean.app/admin/login",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "dd2be177-2fe0-44f8-b238-c1119978f85b",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1116x608",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8b77f88e-9d93-4fea-ab02-3ddf2b472fe9",
+      "comment": "",
+      "command": "click",
+      "target": "id=email",
+      "targets": [
+        ["id=email", "id"],
+        ["name=email", "name"],
+        ["css=#email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//div[@id='container']/div/div/form/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e67df653-9cdb-4997-abf9-ed6c3c57484a",
+      "comment": "",
+      "command": "type",
+      "target": "id=email",
+      "targets": [
+        ["id=email", "id"],
+        ["name=email", "name"],
+        ["css=#email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//div[@id='container']/div/div/form/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "michelleghblue@gmail.com"
+    }, {
+      "id": "863fa47a-4934-4211-b5a2-fd121535005f",
+      "comment": "",
+      "command": "click",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//div[@id='container']/div/div/form/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "54196b64-3102-49a9-946d-bd8909b178cb",
+      "comment": "",
+      "command": "type",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//div[@id='container']/div/div/form/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "expresscart"
+    }, {
+      "id": "84653801-59e4-4b24-96b6-5ba3023a7f07",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//div[@id='container']/div/div/form/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "2d42e3c9-278f-4d56-9ff0-9efdd8dae2d2",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=General settings",
+      "targets": [
+        ["linkText=General settings", "linkText"],
+        ["css=.mb-2 > .nav-item:nth-child(1) > .nav-link", "css:finder"],
+        ["xpath=//div[@id='container']/div/nav/div/ul[2]/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/admin/settings')]", "xpath:href"],
+        ["xpath=//ul[2]/li/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "49ed2ace-5bd7-4b81-9c6e-df8f5feb0d82",
+      "comment": "",
+      "command": "click",
+      "target": "name=emailAddress",
+      "targets": [
+        ["name=emailAddress", "name"],
+        ["css=.col-md-12 > .form-group:nth-child(5) > .form-control", "css:finder"],
+        ["xpath=//input[@name='emailAddress']", "xpath:attributes"],
+        ["xpath=//form[@id='settingsForm']/div[2]/div[5]/input", "xpath:idRelative"],
+        ["xpath=//div[5]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5e5b33d6-2b8c-4cfe-9d05-aeebdfe2e12a",
+      "comment": "",
+      "command": "type",
+      "target": "name=emailAddress",
+      "targets": [
+        ["name=emailAddress", "name"],
+        ["css=.col-md-12 > .form-group:nth-child(5) > .form-control", "css:finder"],
+        ["xpath=//input[@name='emailAddress']", "xpath:attributes"],
+        ["xpath=//form[@id='settingsForm']/div[2]/div[5]/input", "xpath:idRelative"],
+        ["xpath=//div[5]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4d9de433-11ef-4ece-b917-6af4bee94ac1",
+      "comment": "",
+      "command": "click",
+      "target": "id=btnSettingsUpdate",
+      "targets": [
+        ["id=btnSettingsUpdate", "id"],
+        ["css=#btnSettingsUpdate", "css:finder"],
+        ["xpath=//button[@id='btnSettingsUpdate']", "xpath:attributes"],
+        ["xpath=//form[@id='settingsForm']/div/h2/span/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Update')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "86be834c-46ed-474a-98c3-f98864ef7024",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.has-error > .help-block",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "4b803411-050d-4e22-bf4c-10f98139ad60",
+    "name": "Pruebas GeneralSettings 5",
+    "commands": [{
+      "id": "11e22688-b32e-4340-834a-d460616ad47b",
+      "comment": "",
+      "command": "open",
+      "target": "https://expresscart-testing-xgxnh.ondigitalocean.app/admin/login",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "241a2d90-6739-422c-88c7-4d190f45c4f9",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1116x608",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "74bdf12a-a4b9-43e7-9630-9e4ca73ae5cc",
+      "comment": "",
+      "command": "click",
+      "target": "id=email",
+      "targets": [
+        ["id=email", "id"],
+        ["name=email", "name"],
+        ["css=#email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//div[@id='container']/div/div/form/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d41acf95-a98f-4bca-863c-0b072c05e45b",
+      "comment": "",
+      "command": "type",
+      "target": "id=email",
+      "targets": [
+        ["id=email", "id"],
+        ["name=email", "name"],
+        ["css=#email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//div[@id='container']/div/div/form/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "michelleghblue@gmail.com"
+    }, {
+      "id": "b605946c-94e8-45da-b7d0-1ca41646493c",
+      "comment": "",
+      "command": "click",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//div[@id='container']/div/div/form/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "219d0f22-4a0f-4ca0-a6fc-257be81186cf",
+      "comment": "",
+      "command": "type",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//div[@id='container']/div/div/form/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "expresscart"
+    }, {
+      "id": "f272c5d1-7818-4084-bb8b-3bf396559240",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//div[@id='container']/div/div/form/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "58f052c9-f257-440a-adaf-fe99da7bdd5b",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=General settings",
+      "targets": [
+        ["linkText=General settings", "linkText"],
+        ["css=.mb-2 > .nav-item:nth-child(1) > .nav-link", "css:finder"],
+        ["xpath=//div[@id='container']/div/nav/div/ul[2]/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/admin/settings')]", "xpath:href"],
+        ["xpath=//ul[2]/li/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "82524dc6-0d69-4c14-82b9-1d7b62a778df",
+      "comment": "",
+      "command": "click",
+      "target": "name=emailAddress",
+      "targets": [
+        ["name=emailAddress", "name"],
+        ["css=.col-md-12 > .form-group:nth-child(5) > .form-control", "css:finder"],
+        ["xpath=//input[@name='emailAddress']", "xpath:attributes"],
+        ["xpath=//form[@id='settingsForm']/div[2]/div[5]/input", "xpath:idRelative"],
+        ["xpath=//div[5]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9e3c7063-80c8-43c7-888d-e7fca4fdb8b9",
+      "comment": "",
+      "command": "type",
+      "target": "name=emailAddress",
+      "targets": [
+        ["name=emailAddress", "name"],
+        ["css=.col-md-12 > .form-group:nth-child(5) > .form-control", "css:finder"],
+        ["xpath=//input[@name='emailAddress']", "xpath:attributes"],
+        ["xpath=//form[@id='settingsForm']/div[2]/div[5]/input", "xpath:idRelative"],
+        ["xpath=//div[5]/input", "xpath:position"]
+      ],
+      "value": "@markmoffat"
+    }, {
+      "id": "0fb47da8-ff53-48fa-8164-d5028b60985b",
+      "comment": "",
+      "command": "click",
+      "target": "id=btnSettingsUpdate",
+      "targets": [
+        ["id=btnSettingsUpdate", "id"],
+        ["css=#btnSettingsUpdate", "css:finder"],
+        ["xpath=//button[@id='btnSettingsUpdate']", "xpath:attributes"],
+        ["xpath=//form[@id='settingsForm']/div/h2/span/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Update')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b9c7798f-7928-4db5-8643-263e91516e25",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.has-error > .help-block",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "6c88dcc0-dd50-4908-9381-593eed892b3e",
+    "name": "Pruebas GeneralSettings 6",
+    "commands": [{
+      "id": "c774a644-bdad-4f53-83b4-d702c8d7ea17",
+      "comment": "",
+      "command": "open",
+      "target": "https://expresscart-testing-xgxnh.ondigitalocean.app/admin/login",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "24feea3e-e88d-4053-99af-4ee09a1a6139",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1116x608",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ba4fcf2b-4d14-42e9-b2c0-ca93e23cd39e",
+      "comment": "",
+      "command": "click",
+      "target": "id=email",
+      "targets": [
+        ["id=email", "id"],
+        ["name=email", "name"],
+        ["css=#email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//div[@id='container']/div/div/form/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "436bec04-4078-448e-97c0-e1db2319e377",
+      "comment": "",
+      "command": "type",
+      "target": "id=email",
+      "targets": [
+        ["id=email", "id"],
+        ["name=email", "name"],
+        ["css=#email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//div[@id='container']/div/div/form/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "michelleghblue@gmail.com"
+    }, {
+      "id": "c8f09ef6-6bea-4579-94e2-61fd5e833505",
+      "comment": "",
+      "command": "click",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//div[@id='container']/div/div/form/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "170e1479-cb0a-444a-a394-98a06f3c5930",
+      "comment": "",
+      "command": "type",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//div[@id='container']/div/div/form/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "expresscart"
+    }, {
+      "id": "9b126d8f-42d3-4f92-af55-915966babced",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//div[@id='container']/div/div/form/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "2d307804-8a1c-4e84-a016-e74cd46aef3d",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=General settings",
+      "targets": [
+        ["linkText=General settings", "linkText"],
+        ["css=.mb-2 > .nav-item:nth-child(1) > .nav-link", "css:finder"],
+        ["xpath=//div[@id='container']/div/nav/div/ul[2]/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/admin/settings')]", "xpath:href"],
+        ["xpath=//ul[2]/li/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e3b7d4bc-fcb1-458b-97c9-d28f42bc93de",
+      "comment": "",
+      "command": "click",
+      "target": "name=emailAddress",
+      "targets": [
+        ["name=emailAddress", "name"],
+        ["css=.col-md-12 > .form-group:nth-child(5) > .form-control", "css:finder"],
+        ["xpath=//input[@name='emailAddress']", "xpath:attributes"],
+        ["xpath=//form[@id='settingsForm']/div[2]/div[5]/input", "xpath:idRelative"],
+        ["xpath=//div[5]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6680181c-8ecc-4144-aee3-90bfa8bf05b0",
+      "comment": "",
+      "command": "type",
+      "target": "name=emailAddress",
+      "targets": [
+        ["name=emailAddress", "name"],
+        ["css=.col-md-12 > .form-group:nth-child(5) > .form-control", "css:finder"],
+        ["xpath=//input[@name='emailAddress']", "xpath:attributes"],
+        ["xpath=//form[@id='settingsForm']/div[2]/div[5]/input", "xpath:idRelative"],
+        ["xpath=//div[5]/input", "xpath:position"]
+      ],
+      "value": "hi@"
+    }, {
+      "id": "ba09e7c4-9d31-412f-8b84-f814595641a5",
+      "comment": "",
+      "command": "click",
+      "target": "id=btnSettingsUpdate",
+      "targets": [
+        ["id=btnSettingsUpdate", "id"],
+        ["css=#btnSettingsUpdate", "css:finder"],
+        ["xpath=//button[@id='btnSettingsUpdate']", "xpath:attributes"],
+        ["xpath=//form[@id='settingsForm']/div/h2/span/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Update')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "77f7ab3c-74a4-4457-a8e1-01b02373cfea",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.has-error > .help-block",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "d03494eb-9729-4d0e-9170-d75a668dad8c",
+    "name": "Pruebas GeneralSettings 1",
+    "commands": [{
+      "id": "3458b66b-b00d-4652-bcef-ecf8d2de6ef9",
+      "comment": "",
+      "command": "open",
+      "target": "https://expresscart-testing-xgxnh.ondigitalocean.app/admin/login",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6a1c633c-fc13-47f2-8e75-f608949dfec3",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1116x608",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "15cc55ca-10d2-4cc2-917c-c073852cfb54",
+      "comment": "",
+      "command": "click",
+      "target": "id=email",
+      "targets": [
+        ["id=email", "id"],
+        ["name=email", "name"],
+        ["css=#email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//div[@id='container']/div/div/form/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8f27a970-c8a7-40eb-acf8-2c2fe492bdb4",
+      "comment": "",
+      "command": "type",
+      "target": "id=email",
+      "targets": [
+        ["id=email", "id"],
+        ["name=email", "name"],
+        ["css=#email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//div[@id='container']/div/div/form/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "michelleghblue@gmail.com"
+    }, {
+      "id": "f36df44d-ee8e-449e-bb8c-d7bdde48603a",
+      "comment": "",
+      "command": "click",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//div[@id='container']/div/div/form/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "da534037-7909-4300-a830-d739f337f0c0",
+      "comment": "",
+      "command": "type",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//div[@id='container']/div/div/form/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "expresscart"
+    }, {
+      "id": "240ad4ee-db7e-4c97-8d9b-99b112a95874",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//div[@id='container']/div/div/form/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "3cf966a9-c253-419b-a5dd-57ef857186fb",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=General settings",
+      "targets": [
+        ["linkText=General settings", "linkText"],
+        ["css=.mb-2 > .nav-item:nth-child(1) > .nav-link", "css:finder"],
+        ["xpath=//div[@id='container']/div/nav/div/ul[2]/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/admin/settings')]", "xpath:href"],
+        ["xpath=//ul[2]/li/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0743bd6f-f799-40d6-b115-97c06bebf736",
+      "comment": "",
+      "command": "click",
+      "target": "name=emailAddress",
+      "targets": [
+        ["name=emailAddress", "name"],
+        ["css=.col-md-12 > .form-group:nth-child(5) > .form-control", "css:finder"],
+        ["xpath=//input[@name='emailAddress']", "xpath:attributes"],
+        ["xpath=//form[@id='settingsForm']/div[2]/div[5]/input", "xpath:idRelative"],
+        ["xpath=//div[5]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8f85d122-2a27-4108-8691-11522128bf60",
+      "comment": "",
+      "command": "type",
+      "target": "name=emailAddress",
+      "targets": [
+        ["name=emailAddress", "name"],
+        ["css=.col-md-12 > .form-group:nth-child(5) > .form-control", "css:finder"],
+        ["xpath=//input[@name='emailAddress']", "xpath:attributes"],
+        ["xpath=//form[@id='settingsForm']/div[2]/div[5]/input", "xpath:idRelative"],
+        ["xpath=//div[5]/input", "xpath:position"]
+      ],
+      "value": "hi@markmoffat.com"
+    }, {
+      "id": "1d4012a2-fc5a-4f97-97b8-1a483eb1a86a",
+      "comment": "",
+      "command": "click",
+      "target": "id=btnSettingsUpdate",
+      "targets": [
+        ["id=btnSettingsUpdate", "id"],
+        ["css=#btnSettingsUpdate", "css:finder"],
+        ["xpath=//button[@id='btnSettingsUpdate']", "xpath:attributes"],
+        ["xpath=//form[@id='settingsForm']/div/h2/span/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Update')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "17f92b58-d1f2-4978-9c91-e28058e7245c",
+      "comment": "",
+      "command": "assertText",
+      "target": "id=notify_message",
+      "targets": [],
+      "value": "Settings successfully updated"
+    }]
+  }],
+  "suites": [{
+    "id": "203c7a26-263d-410e-a165-0d9da50f9ef0",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["https://expresscart-testing-xgxnh.ondigitalocean.app/", "https://expresscart-testing-xgxnh.ondigitalocean.app/admin/login"],
+  "plugins": []
+}
